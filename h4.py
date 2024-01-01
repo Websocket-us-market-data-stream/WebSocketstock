@@ -430,7 +430,7 @@ def my_customer_process_message(message):
 
 
 def main():
-    key = 'dBrL9W2_4b4b_G9YaBJYyaq__rBdrFSAPkvdnx'
+    key = ''
     my_client = WebSocketClient(STOCKS_CLUSTER, key, my_customer_process_message)
     my_client.run_async()
 
